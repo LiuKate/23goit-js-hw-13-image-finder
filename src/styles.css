@@ -32,7 +32,8 @@ body {
   display: none;
 }
 .js-card-container {
-  max-width: 1400px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Article List */
@@ -53,8 +54,8 @@ img {
 }
 
 .gallery {
+  max-width: 1400px;
   display: flex;
-
   flex-wrap: wrap;
   list-style-type: none;
 }
