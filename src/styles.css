@@ -31,10 +31,6 @@ body {
 .button > .spinner.is-hidden {
   display: none;
 }
-.js-card-container {
-  display: flex;
-  justify-content: center;
-}
 
 /* Article List */
 img {
