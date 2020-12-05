@@ -35,7 +35,7 @@ body {
 /* Article List */
 img {
   display: block;
-  width: 300px;
+  width: 290px;
   height: 210px;
 }
 .stats {
@@ -74,4 +74,26 @@ img {
 }
 .material-icons {
   margin: 0 3px 0 0;
+}
+@media screen and (min-width: 480px) {
+  .js-card-container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .js-card-container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .js-card-container {
+    width: 1200px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .js-card-container {
+    width: 1400px;
+  }
 }
